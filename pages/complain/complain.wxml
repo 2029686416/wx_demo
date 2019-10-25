@@ -1,0 +1,26 @@
+<!--complain.wxml-->
+<view class="tianzi">
+<view>
+  <textarea class="te" placeholder="输入留言内容..." value='{{concent}}'   bindblur='bindTextAreaBlur' ></textarea>
+  <view class="fim">
+    <image hidden='{{hiddenText}}' style="width:98px;height:98px;" bindtap="tup" src="{{src}}">
+    </image>
+    <image hidden='{{hiddenImg}}' style="width:100px;height:120px;" src='{{srcimg}}'></image>
+  </view>
+  <!--<text hidden='{{hiddenText}}' bindtap="tup" >添加图片</text>-->
+  <view class="fw">
+    <text class="txx">{{text0}}</text>
+    <input class="in01" bindblur='bindName' value='{{name}}' type="text"/>
+  </view>
+  <view class="line"></view>
+  <view class="fw">
+    <text class="txx">{{text1}}</text>
+    <input class="in02" bindblur='bindPhone' value="{{phone}}" type="text"/>
+  </view>
+  <view class="line"></view>
+  <view class="blonk"></view>
+  <view class="sdf">
+    <image bindtap="bindgetuserinfo" src="../image/fabu.png" style="width:314px;height:28px;"></image>
+  </view>
+</view>
+</view>

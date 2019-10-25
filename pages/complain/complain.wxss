@@ -1,0 +1,63 @@
+.tianzi{
+  width: 360px;
+  margin: 0 auto;
+}
+.te{
+  width: 300px;
+  font-size: 14px;
+  margin: 0 auto;
+ /* border: 1px solid gray;*/
+}
+.but{
+  width: 300px;
+  height: 30px;
+  margin: 0 auto;
+  background-color: rgb(0,119,255);
+  font-size: 13px;
+  color: white;
+  border-radius: 25px;
+}
+.hello{
+  font-size: 13px;
+  color: red;
+}
+.txx{
+  font-size: 14px;
+}
+.jia{
+  font-size:60px;
+  color: silver;
+}
+.in01{
+  position: relative;
+  left: 40px;
+  top: -20px;
+}
+.in02{
+  width: 230px;
+  position: relative;
+  left: 70px;
+  top: -20px;
+}
+.fim{
+  width: 300px;
+  margin: 0 auto;
+}
+.fw{
+  width: 314px;
+  height: 50px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+.line{
+  height: 1px;
+  width: 314px;
+  margin: 0 auto;
+  background-color: #D8D8D8;
+}
+.blonk{
+  height: 30px;
+}
+.sdf{
+  text-align: center;
+}

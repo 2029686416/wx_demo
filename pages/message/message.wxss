@@ -1,0 +1,94 @@
+.but{
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: rgb(0,119,255);
+  font-size: 23px;
+  color: white;
+  border-radius: 25px;
+}
+.but{
+  position: fixed;
+  left: 130px;
+  bottom: 20px;
+}
+.clJia{
+  position: absolute;
+  top: -30px;
+  left: 10px;
+  font-weight: 1px;
+}
+
+.context01{
+  width: 314px;
+  height: 50px;
+  font-size: 13px;
+  background-color: rgb(243,243,243);
+  
+}
+.zhi{
+  margin-left: 10px;
+}
+
+.context02{
+  width: 314px;
+  height: 20px;
+  color: white;
+  font-size: 13px;
+  background-color: rgb(0,119,255);
+}
+.context03{
+  width: 314px;
+  height: 20px;
+  color: white;
+  font-size: 13px;
+  background-color: rgb(228,228,228);
+}
+.te01{
+  margin-left: 20px;
+}
+
+.te02{
+  margin-left: 20px;
+}
+.te03{
+  margin-left: 60px;
+}
+.te04{
+  margin-left: 60px;
+}
+.listContext{
+  width: 314px;
+  margin: 0 auto;
+}
+.listTwo{
+  width: 314px;
+  height: 70px;
+  border-radius: 25px;
+}
+
+.kongbai{
+  width: 300px;
+  height: 20px;
+}
+ .zhi{
+    width: 280px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all; /* 追加这一行代码 */
+}
+.tanjia{
+  width: 40px;
+  height: 40px;
+}
+.tanjia{
+  position: fixed;
+    bottom: 40px;
+    left: 0px;
+    right: 0px;
+    margin-left:auto;
+    margin-right:auto;
+}

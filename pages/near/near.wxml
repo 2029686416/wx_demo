@@ -1,0 +1,39 @@
+<view class="tianxia">
+<view class="wan">
+  <text>万华园\n</text>
+</view>
+<view class="too">
+  <image src="../image/zaoyuan.png"></image>
+</view>
+<view class="kongbai" ></view>
+<view class="listOne">
+  <view class="kl">
+        <image bindtap="getSou" style="width:15px;height:15px;" src="../image/sou.png"></image>
+        </view>
+        <view class="kla">
+        <textarea style="height:25px;width:270px;" bindblur='bindName' value='{{name}}' class="ccc" type="name" placeholder="搜索线路、站点信息"></textarea> 
+      </view>
+
+  </view>
+  <view class="kongbai" ></view>
+<view  data-hi="WeChat" wx:for="{{mesList}}">
+        <view data-hi="{{index}}" bindtap="getDetail" class="op listTwo">
+          <view class="gw">
+            <text class="zhi1">{{item.STATION_NAME}}</text>
+            <text class="zhis">预计到达</text>
+          </view>
+          
+         
+          <view class="gws" wx:if="{{item.CAL_VEH_TIME == null}}">
+            <text class="zhi2" space="emsp">{{name1}} {{item.STATION_NAME}}</text>
+            <text class="zhi4"><text style="color:blue;font-size:23px;">--</text>分</text>
+          </view>
+          <view class="gws" wx:else>
+            <text class="zhi2" space="emsp">{{name1}} {{item.STATION_NAME}}</text>
+            <text class="zhi4"><text style="color:blue;font-size:23px;">{{item.CAL_VEH_TIME}}</text>分</text>
+          </view>
+
+        </view>
+    <view class="kongbai" ></view>
+</view>
+</view>

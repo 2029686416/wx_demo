@@ -1,0 +1,4 @@
+<!--pages/geoserver/geoserver.wxml-->
+
+  <web-view src="https://lemontree.picp.vip/wanhuayuan/message/openlayer?r_s_orderid={{rSOrderid}}&route_id={{routeId}}&route_direct={{routeDirect}}"></web-view>
+

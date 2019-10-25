@@ -1,0 +1,42 @@
+.listOne{
+  width: 314px;
+  height: 28px;
+  margin: 0 auto;
+  font-size: 12px;
+  border-radius: 15px;
+  background-color: rgb(243,243,243);
+}
+.listOne image{
+  margin: 0 10px 5px 10px;
+}
+.listTwo{
+  width: 314px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: rgb(243,243,243);
+}
+.listTwo view{
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.kongbai{
+  width: 300px;
+  height: 20px;
+}
+.ccc{
+  block-overflow: 
+}
+.kl{
+  float:left; 
+  display:inline;
+  padding-top: 5px;
+}
+.kla{
+  float:left;
+  height: 30px;
+  display:inline;
+  padding-top: 5px;
+}
+

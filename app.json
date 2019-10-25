@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/near/near",
+    "pages/map/map",
+    "pages/geoserver/geoserver",
+    "pages/message2/message2",
+    "pages/nearDetail/nearDetail",
+    "pages/message/message",
+    "pages/complain/complain",
+    "pages/route/route",
+    "pages/car/car",
+    "pages/bus/bus",
+    "pages/user/user",
+    "pages/index/index"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Lemon Tree",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/near/near",
+        "iconPath": "pages/image/组 2000.png",
+        "selectedIconPath": "pages/image/组 2001.png"
+      },
+      {
+        "pagePath": "pages/route/route",
+        "iconPath": "pages/image/组 1999.png",
+        "selectedIconPath": "pages/image/组 2002.png"
+      },
+      {
+        "pagePath": "pages/message2/message2",
+        "iconPath": "pages/image/组 1998.png",
+        "selectedIconPath": "pages/image/组 2003.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

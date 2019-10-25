@@ -1,0 +1,51 @@
+.nie{
+  width: 314px;
+  height: 50px;
+  font-size: 13px;
+  margin: 0 auto;
+  
+}
+.nies{
+  width: 314px;
+  height: 20px;
+  font-size: 13px;
+  margin: 0 auto;
+  
+}
+.zhi{
+  margin-left: 10px;
+  padding-top: 10px;
+}
+.zhi{
+    width: 300px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;/* 超过两行显示... */
+    -webkit-box-orient: vertical;
+    word-break: break-all; /* 追加这一行代码 */
+}
+.te01{
+  margin-left: 20px;
+}
+.te02{
+  margin-left: 38px;
+}
+.te03{
+  margin-left: 70px;
+}
+.tanjia{
+  width: 40px;
+  height: 40px;
+}
+.tanjia{
+  position: fixed;
+    bottom: 40px;
+    left: 0px;
+    right: 0px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.laib{
+  margin-bottom: 20px;
+}

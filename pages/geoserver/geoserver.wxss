@@ -1,0 +1,17 @@
+/* pages/geoserver/geoserver.wxss 
+@import "../ol/ol.wxss";
+html,
+body,
+.map{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.jk{
+  width: 314px;
+  height: 230px;
+  border: 1px solid red;
+  margin-top: 40px;
+}*/

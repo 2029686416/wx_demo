@@ -1,0 +1,54 @@
+<view class="tianzi">
+<view class="op" hidden="{{moshi1}}">
+  <view bindtap="showList" style="background-color: rgb(0, 119, 255);">列表模式</view>
+  <view bindtap="showMap" style="background-color: rgb(132, 132, 132)">地图模式</view>
+</view>
+<view class="op" hidden="{{moshi2}}">
+  <view bindtap="showList" style="background-color: rgb(132, 132, 132);">列表模式</view>
+  <view bindtap="showMap" style="background-color: rgb(0, 119, 255)">地图模式</view>
+</view>
+<!-- 列表模式 -->
+<view class="listmo" hidden="{{showList}}">
+
+  <view><text style="font-size:13px;font-weight:bold;">{{descp}}</text></view>
+  <view style="font-size:12px;color:silver;" >
+    \n{{deparTime}}
+  </view>
+  <view class="kongbai" ></view>
+  <view class="yuji">
+  <view class="kongbai" ></view>
+    <view>预计到达</view>
+    <view><text style="color:blue;font-size:33px;">{{vehTime}}</text>分</view>
+  </view>
+  <view class="fenkai">
+    <view class="imro">
+      <image src="../image/zhishi.png" style="width:7px;height:{{height}}px"></image>
+    </view>
+    <view class="box">
+      <view wx:for="{{mesDetailList}}">
+      <view wx:if="{{rSOrderid == item.R_S_ORDERID}}">
+        <view class="zhis">
+          <image class="che" src="../image/car1.png" style="width:12px;height:12px;"></image>
+          <image class="jiantou" src="../image/jiantwo.png" style="width:5px;height:10px;"></image>
+          <text class="jian" space="ensp">{{item.R_S_ORDERID}} {{item.STATION_NAME}}</text>
+        </view>
+      </view>
+      <view wx:else>
+        <view class="zhis">
+          <image class="jiantous" src="../image/jianone.png" style="width:5px;height:10px;"></image>
+          <text class="jians" space="ensp">{{item.R_S_ORDERID}} {{item.STATION_NAME}}</text>
+        </view>
+      </view>
+      </view>
+    </view>
+  </view>
+ 
+
+</view>
+
+<!-- 地图模式 -->
+<view class="map_box" hidden="{{showMap}}">
+
+  <map id="navi_map" longitude="{{longitude}}" latitude="{{latitude}}" scale="13" markers="{{markers}}" polyline="{{polyline}}"></map>
+</view>
+</view>

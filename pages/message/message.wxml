@@ -1,0 +1,42 @@
+<!--<view class="op-a">
+  <view class="op-c">
+    <image src="../image/矩形.png" style="width:314px;height:50px;"></image>
+    <view class="context01">
+      <text class="zhi">大大的书大开大了大书大开大了大</text>
+    </view>
+  </view>
+
+   <view class="op-b">
+    <image  src="../image/矩形-1.png" style="width:314px;height:20px;"></image>
+    <view class="context02">
+      <text class="te01">小**</text>
+      <text class="te02">2019-10-14 17:43</text>
+      <text class="te03">回复</text>
+    </view>
+  </view>
+  
+  
+</view>
+-->
+<view class="kongbai" ></view>
+<view class="listContext" data-hi="WeChat" wx:for="{{mesList}}">
+  <view class="listTwo">
+      <view class="context01">
+        <text class="zhi">{{item.MESS_CONTENT}}</text>
+      </view>
+      <view wx:if="{{item.MESS_REPLY == '1'}}" class="context02">
+        <text class="te01">{{item.MESS_NAME}}**</text>
+        <text class="te02">{{item.UPDATE_TIME}}</text>
+        <text class="te03">已回复</text>
+      </view>
+      <view wx:else class="context03">
+        <text class="te01">{{item.MESS_NAME}}**</text>
+        <text class="te02">{{item.UPDATE_TIME}}</text>
+        <text class="te03">未回复</text>
+      </view>
+  </view>
+  <view class="kongbai" ></view>
+</view>
+<view bindtap="getMes" class="tanjia">
+  <image src="../image/liu.png" style="width:40px;height:40px;"></image>
+</view>

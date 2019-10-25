@@ -1,0 +1,102 @@
+.tianxia{
+  width: 360px;
+  margin: 0 auto;
+}
+.gw{
+  width: 280px;
+  height: 30px;
+  margin: 0 auto;
+  float: left;
+  padding-left: 10px;
+}
+.gws{
+  width: 280px;
+  height: 40px;
+  margin: 0 auto;
+  float: left;
+  padding-left: 10px;
+}
+.zhi1{
+  float: left;
+  padding-top: 10px;
+  font-size: 14px;
+}
+.zhi2{
+  float: left;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.zhis{
+  text-align: right;
+  float: right;
+  padding-top: 10px;
+  font-size: 14px;
+}
+.zhi4{
+  text-align: right;
+  float: right;
+  font-size: 14px;
+}
+
+.listOne{
+  width: 314px;
+  height: 28px;
+  margin: 0 auto;
+  font-size: 12px;
+  border-radius: 15px;
+  background-color: rgb(243,243,243);
+}
+.listTwo{
+  width: 314px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: rgb(243,243,243);
+}
+.listOne image{
+  position: relative;
+  left: 15px;
+  top: -5px;
+}
+.kongbai{
+  width: 300px;
+  height: 17px;
+}
+
+.too{
+  width: 314px;
+  height: 125px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.too image{
+  width: 314px;
+  height: 125px;
+  border-radius: 20px;
+}
+.wan{
+  width: 90%;
+  margin-left: 30px;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.ccc{
+  display: inline-block;
+  width: 240px;
+  position: relative;
+  left: 30px;
+}
+.kl{
+  float:left; 
+  display:inline;
+  padding-top: 7px;
+}
+.kla{
+  float:left;
+  height: 30px;
+  display:inline;
+  padding-top: 5px;
+}
+
